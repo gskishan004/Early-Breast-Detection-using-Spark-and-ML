@@ -1,29 +1,28 @@
 # Distributed ML for prediction of brest cancer using histology slides
 
 
-## Here we will discuss 2 ways: 1> Using personal laptop 2> Using Dumbo
-## *Note that there are still lot of problems running it in dumbo*
+## Here we will discuss 2 ways: 
+- Local Machine 
+- On Hadoop Cluster
 
 ## On Local machine 
 
 ###### Config
-Spark 			            2.3
-Python 						3.6
-Tensorflow 		            1.4.0
-JDK version 				1.8.0_222
-Memory 						10 GB
-Image resolution Downscaled 100x100
-Keras						2.1.5
-Numpy						1.17.4
-Pillow						6.2.1
-OS 							Ubuntu
-OS Version					18.04.2 LTS
-
-## Steps:
+- Spark 			            2.3
+- Python 						3.6
+- Tensorflow 		            1.4.0
+- JDK version 				1.8.0_222
+- Memory 						10 GB
+- Image resolution Downscaled 100x100
+- Keras						2.1.5
+- Numpy						1.17.4
+- Pillow						6.2.1
+- OS 							Ubuntu
+- OS Version					18.04.2 LTS
 
 ###### Download spark and unzip it
-curl -O https://archive.apache.org/dist/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz
-tar xzf spark-2.3.0-bin-hadoop2.7.tgz
+curl -O https://archive.apache.org/dist/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz <br/>
+tar xzf spark-2.3.0-bin-hadoop2.7.tgz <br/>
 
 ###### Copy the dataset in PWD
 Can use FTP client such as WinSCP
